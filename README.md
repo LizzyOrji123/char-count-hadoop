@@ -76,6 +76,17 @@ git add .
 git commit -m "Add Hadoop Character Count MapReduce project"
 git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
+👩🏽‍💻 Author
+Elizabeth Orji
+MSc Computer Science – University of East London
+GitHub: @LizzyOrji123
+
+yaml
+Copy
+Edit
+
+---
+
 
 
 
