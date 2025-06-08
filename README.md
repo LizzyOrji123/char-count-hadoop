@@ -39,18 +39,19 @@ This project demonstrates how to build and run a simple **Hadoop MapReduce** app
    hdfs dfs -put input.txt /input
 Run the JAR file
 
-bash
+```bash
 Copy
 Edit
 hadoop jar charcount.jar CharacterCount /input /output
 View Output
 
-bash
+```bash
 Copy
 Edit
 hdfs dfs -cat /output/part-r-00000
+
 📁 Project Structure
-graphql
+```graphql
 Copy
 Edit
 ├── CharacterCount.java
@@ -59,33 +60,15 @@ Edit
 ├── output/            # Contains result files from HDFS
 ├── Dockerfile         # (Optional) for custom Hadoop container
 └── README.md
+
 ✅ Output Sample
-css
+```css
 Copy
 Edit
 A   8
 B   2
 C   3
 ...
-📤 How to Push to GitHub
-bash
-Copy
-Edit
-git init
-git add .
-git commit -m "Add Hadoop Character Count MapReduce project"
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-👩🏽‍💻 Author
-Elizabeth Orji
-MSc Computer Science – University of East London
-GitHub: @LizzyOrji123
-
-yaml
-Copy
-Edit
-
----
 
 
 
