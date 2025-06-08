@@ -1,0 +1,6 @@
+Accessibility is disabled in openjdk by default.  This is because it breaks some
+applications, notably non-threaded ones.  To re-enable it (which will probably
+break some applications, in /etc/java-6-openjdk/accessibility.properties
+uncomment
+
+assistive_technologies=org.GNOME.Accessibility.AtkWrapper

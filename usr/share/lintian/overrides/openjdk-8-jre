@@ -1,0 +1,2 @@
+# these are in the -jre-headless package, -jre depends on it
+openjdk-8-jre binary: desktop-command-not-in-package

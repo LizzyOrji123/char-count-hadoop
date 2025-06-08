@@ -1,0 +1,49 @@
+name=java-8-openjdk-amd64
+alias=java-1.8.0-openjdk-amd64
+priority=1081
+section=main
+
+hl rmid /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmid
+hl java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+hl keytool /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/keytool
+hl jjs /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/jjs
+hl pack200 /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/pack200
+hl rmiregistry /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmiregistry
+hl unpack200 /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/unpack200
+hl orbd /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/orbd
+hl servertool /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/servertool
+hl tnameserv /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/tnameserv
+hl jexec /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jexec
+jre policytool /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/policytool
+jdkhl idlj /usr/lib/jvm/java-8-openjdk-amd64/bin/idlj
+jdkhl jdeps /usr/lib/jvm/java-8-openjdk-amd64/bin/jdeps
+jdkhl wsimport /usr/lib/jvm/java-8-openjdk-amd64/bin/wsimport
+jdkhl rmic /usr/lib/jvm/java-8-openjdk-amd64/bin/rmic
+jdkhl jinfo /usr/lib/jvm/java-8-openjdk-amd64/bin/jinfo
+jdkhl jsadebugd /usr/lib/jvm/java-8-openjdk-amd64/bin/jsadebugd
+jdkhl native2ascii /usr/lib/jvm/java-8-openjdk-amd64/bin/native2ascii
+jdkhl jstat /usr/lib/jvm/java-8-openjdk-amd64/bin/jstat
+jdkhl javac /usr/lib/jvm/java-8-openjdk-amd64/bin/javac
+jdkhl javah /usr/lib/jvm/java-8-openjdk-amd64/bin/javah
+jdkhl clhsdb /usr/lib/jvm/java-8-openjdk-amd64/bin/clhsdb
+jdkhl jstack /usr/lib/jvm/java-8-openjdk-amd64/bin/jstack
+jdkhl jrunscript /usr/lib/jvm/java-8-openjdk-amd64/bin/jrunscript
+jdkhl javadoc /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc
+jdkhl javap /usr/lib/jvm/java-8-openjdk-amd64/bin/javap
+jdkhl jar /usr/lib/jvm/java-8-openjdk-amd64/bin/jar
+jdkhl extcheck /usr/lib/jvm/java-8-openjdk-amd64/bin/extcheck
+jdkhl hsdb /usr/lib/jvm/java-8-openjdk-amd64/bin/hsdb
+jdkhl schemagen /usr/lib/jvm/java-8-openjdk-amd64/bin/schemagen
+jdkhl jps /usr/lib/jvm/java-8-openjdk-amd64/bin/jps
+jdkhl xjc /usr/lib/jvm/java-8-openjdk-amd64/bin/xjc
+jdkhl jarsigner /usr/lib/jvm/java-8-openjdk-amd64/bin/jarsigner
+jdkhl jmap /usr/lib/jvm/java-8-openjdk-amd64/bin/jmap
+jdkhl jstatd /usr/lib/jvm/java-8-openjdk-amd64/bin/jstatd
+jdkhl jhat /usr/lib/jvm/java-8-openjdk-amd64/bin/jhat
+jdkhl jdb /usr/lib/jvm/java-8-openjdk-amd64/bin/jdb
+jdkhl serialver /usr/lib/jvm/java-8-openjdk-amd64/bin/serialver
+jdkhl wsgen /usr/lib/jvm/java-8-openjdk-amd64/bin/wsgen
+jdkhl jcmd /usr/lib/jvm/java-8-openjdk-amd64/bin/jcmd
+jdk appletviewer /usr/lib/jvm/java-8-openjdk-amd64/bin/appletviewer
+jdk jconsole /usr/lib/jvm/java-8-openjdk-amd64/bin/jconsole
+plugin mozilla-javaplugin.so /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/IcedTeaPlugin.so
